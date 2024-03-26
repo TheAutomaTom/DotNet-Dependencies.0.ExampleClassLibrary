@@ -1,5 +1,11 @@
 # Demo Git Submodules
 
+##### To do
+
+1. Add a test project, and trigger it to run on push... maybe prevent commit if it fails.
+
+## Demo Steps
+
 1. Clone the demo repositories
 
         git clone https://github.com/TheAutomaTom/GitSubmodules.Dependent-A
