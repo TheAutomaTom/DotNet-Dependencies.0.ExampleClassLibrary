@@ -2,6 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Git Submodules Demo Class Library</Title>
+    <Authors>Tom Grossi</Authors>
+    <Company>SurealityCheck.org</Company>
+    <Product>Git Submodules Demo</Product>
+    <Description>Demonstrating the utility of git submodules</Description>
+    <Copyright>SurealityCheck 2024</Copyright>
+    <PackageProjectUrl>https://github.com/TheAutomaTom/GitSubmodules.Provider</PackageProjectUrl>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/TheAutomaTom/GitSubmodules.Provider</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>submodule</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

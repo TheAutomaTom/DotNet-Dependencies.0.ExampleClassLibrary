@@ -2,15 +2,23 @@
 
 1. Clone the demo repositories
 
-git clone https://github.com/TheAutomaTom/GitSubmodules.Dependant-A
-git clone https://github.com/TheAutomaTom/GitSubmodules.Dependant-B
-git clone https://github.com/TheAutomaTom/GitSubmodules.Dependant-C
-git clone https://github.com/TheAutomaTom/GitSubmodules.Provider
+        git clone https://github.com/TheAutomaTom/GitSubmodules.Dependent-A
+        git clone https://github.com/TheAutomaTom/GitSubmodules.Dependent-B
+        git clone https://github.com/TheAutomaTom/GitSubmodules.Dependent-C
+        git clone https://github.com/TheAutomaTom/GitSubmodules.Provider
 
-1. 
+1. Observe Dependants' present relationship to Provider
+
+    GitSubmodules.Dependent-A
+    
+    GitSubmodules.Dependent-B
+    
+    GitSubmodules.Dependent-C
 
 
-## Pop culture references
+
+
+### Pop culture references
 
 #### Dependent-A
 
@@ -20,7 +28,7 @@ Big (1988)
 
 > A: Not matter what, he says, "Your wish is granted!"
 
-#### Dependent-B
+##### Dependent-B
 
 Bob Dylan's "Blowing in the Wind" (1961)
 
@@ -28,7 +36,7 @@ Bob Dylan's "Blowing in the Wind" (1961)
 
 > A: The answer, my friend, is blowing in the wind.
 
-#### Dependent-C
+##### Dependent-C
 
 Douglas Adams' The Hitchhiker's Guide to the Galaxy (1981)
 
