@@ -6,7 +6,7 @@
 
    - Dependent-A is a Console App using a Nuget Package
    - Dependent-B is a Function App referencing the project directly on disk.
-   - Dependent-A is an Aspire app set up with a Git Module.           
+   - Dependent-C is an Aspire app set up with a Git Module.           
 
 ##### To do
 
