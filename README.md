@@ -1,5 +1,13 @@
 # Demo Git Submodules
 
+## Intent
+
+1. This demo is to illustrate 3 different ways a .Net project may be dependant on a class library, and how Source Control is handled differently in each situation.
+
+   - Dependent-A is a Console App using a Nuget Package
+   - Dependent-B is a Function App referencing the project directly on disk.
+   - Dependent-A is an Aspire app set up with a Git Module.           
+
 ##### To do
 
 1. Add a test project, and trigger it to run on push... maybe prevent commit if it fails.
@@ -77,7 +85,7 @@ Big (1988)
 
 > Q: Zoltar asks "Make your wish!"
 
-> A: Not matter what, he says, "Your wish is granted!"
+> A: No matter what, he says, "Your wish is granted!"
 
 ##### Dependent-B
 
