@@ -3,7 +3,7 @@
   /// <summary> Provides everyone an answer. </summary>
   public static class QuestionResolver
   {
-    public readonly static int Answer = 666; 
+    public readonly static string Answer = "forty-two"; 
   }
 
 }
