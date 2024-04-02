@@ -32,11 +32,10 @@
     - Creating and using a .Net 2.0 Class Library Nuget Package
         1. Open the Nuget project's solution in  VS22... 
             1. Set the build mode to `Release` from the select menu (to the left of the `Begin Debugging` button).  
-            1. `Build Solution` 
-                Create a DLL found within .\bin\Release` directory.
-            1. Select the AppLogger project in Solution Explorer, then select Pack.
-                Build the project and create the .nupkg file in `.\bin\Release`
-        1. Send the .nupkg file to your nuget repository, then 
+            1. `Build Solution` to create a DLL found within .\bin\Release` directory.
+            1. Select the project in Solution Explorer
+			1. Right-click then select `Pack`.  This creates a .nupkg file in `.\bin\Release`
+        1. Send the .nupkg file to your nuget repository.
 
         1. Run `dotnet pack` from the directory containing the project file.
       
